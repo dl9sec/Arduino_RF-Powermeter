@@ -45,8 +45,11 @@
   
   The ATT range is 0..49dB, so RF power up to +54dBm/251W can be displayed.
   
+  If the ATT value was changed, the new value is stored at the internal EEPROM address
+  0 after 200ms.
+  
   Pressing all three pushbuttons at the same time will reset the device
-  and displays the splash screen.
+  and displays the splash screen.  
   
   Remove comment at "#define DEBUGON" to get debug information as measured voltages and
   pushbutton states.
